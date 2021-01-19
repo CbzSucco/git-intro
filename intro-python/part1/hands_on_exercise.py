@@ -1,7 +1,7 @@
 """Intro to Python - Part 1 - Hands-On Exercise."""
 
 
-import math
+"""import math
 import random
 
 
@@ -46,4 +46,12 @@ print("12 x 96 =", multiplication(12,96))
 
 print("48 x 17 =", multiplication(47,17))
 
-print("196523 x 87323 =", multiplication(196523,87323))
+print("196523 x 87323 =", multiplication(196523,87323))"""
+
+fruits = {"apples": 5, "pears": 2, "oranges": 9 }
+for fruit in fruits:
+    print(fruit)
+
+list(fruits.items())
+for fruit in fruits.items():
+    print(fruit.item)
